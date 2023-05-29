@@ -3,6 +3,7 @@
     padding: 0;
     font-family: 'poppins',sans-serif;
     box-sizing: border-box;
+
 }
  .container{
    width: 100%;
@@ -11,6 +12,7 @@
    display: flex;
    align-items: center;
    justify-content: center;
+
  }
 
   .calculator {
@@ -57,3 +59,22 @@
   form input.operator{
    color:  #33ffdB; 
   }
+.heading{
+  margin-top: opx;
+  width: 100%;
+   background: #e3f9ff; 
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   padding: 30px;
+   margin-bottom: 0px;
+  
+   
+}
+.no-scroll {
+  overflow: hidden;
+}
+
+.heading {
+  font-size: 30px;
+}
